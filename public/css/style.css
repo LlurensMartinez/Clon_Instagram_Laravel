@@ -124,6 +124,16 @@ form .imageNav{
     color:red;
 }
 
+.data-user{
+    margin: 3%;
+}
+
+.userContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .data-user .container-avatar{
     width: 200px;
     height: 200px;

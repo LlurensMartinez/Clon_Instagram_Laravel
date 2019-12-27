@@ -47,7 +47,7 @@
                             @endif
                         </div>
 
-                            <p>{{ count($image->likes) }}</p>
+                            <input class="count" value="{{ count($image->likes) }}">
 
                         @if(Auth::user() && Auth::user()->id == $image->user->id)
                         <div class="actionEdit">

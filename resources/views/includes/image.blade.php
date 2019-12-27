@@ -42,7 +42,7 @@
                 <i class="far fa-heart" data-id="{{ $image->id }}"></i>
                 @endif
             </div>
-            {{ count($image->likes) }}
+            <input class="count" value="{{ count($image->likes) }}">
             <div class="comments">
                 <a href="{{ route('image.detail', ['id' => $image->id])}}"><i class="far fa-comments"></i></a>
             </div>

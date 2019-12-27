@@ -23,6 +23,9 @@ window.addEventListener("load", function(){
 
                 }
             });
+            //Sumar al Front 1 like
+            let num = parseInt($('.count').val()) + 1;
+            $('.count').attr('value', num);
             dislike();
         });
     }
@@ -47,7 +50,9 @@ window.addEventListener("load", function(){
 
                 }
             });
-
+            //Restar al Front 1 like
+            let num = parseInt($('.count').val()) - 1;
+            $('.count').attr('value', num);
             like();
         });
     }
